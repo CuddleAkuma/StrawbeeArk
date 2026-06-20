@@ -90,24 +90,7 @@
                                                     ]
                                                 }
                                             },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                        "Props": {
-                                                            "Label": "Link to a Twitter Page",
-                                                            "Padding": [
-                                                                5,
-                                                                5,
-                                                                5,
-                                                                5
-                                                            ]
-                                                        },
-                                                        "OnClickEvent": {
-                                                            "Url": "https://twitter.com/"
-                                                        }
-                                                    },
+                                            
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
@@ -121,7 +104,7 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "https://discord.gg/FbFzcnqwTw/"
+                                                            "Url": "https://discord.gg/FbFzcnqwTw"
                                                         }
                                                     }
                                                 ]
