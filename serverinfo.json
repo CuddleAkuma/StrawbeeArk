@@ -311,7 +311,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: Can I disable this for my server?",
+                                                            "Text": "Q: What are the rates (XP, harvest, taming, breeding)?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -325,7 +325,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: Yes, Go to Installed Mods -> Ark Nucleus ->Server Settings",
+                                                            "Text": "A: This is 10x! For more Info click below!",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -350,13 +350,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "Disable Server Info Page"
+                                                                "Title": "Exact Ratios here!"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "As majority of things is optional in Ark-Nucleus so is the Server Info Page. You don't see use for it? Disable it!",
+                                                                        "Text": "🌿 STRAWBEE PvE RATES\n\n⭐ XP\n• Harvest XP: 3x\n• Kill XP: 3x\n• Generic XP: 2.5x\n• Special XP: 2.5x\n• Boss XP: 8x\n\n🪓 Harvesting\n• Harvest Amount: 10x\n• Player Harvest Damage: 2.5x\n• Dino Harvest Damage: 5x\n\n🦖 Taming\n• Taming Speed: 10x\n\n🥚 Breeding\n• Hatch Speed: 10x\n• Mature Speed: 5x\n• Imprint: 5x\n\n📦 QoL\n• Stack Size: 25x\n• Unlimited Mindwipes\n• No Cryo Sickness\n• Crossplay Enabled",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
