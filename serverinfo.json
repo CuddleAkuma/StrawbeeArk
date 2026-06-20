@@ -67,7 +67,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "$$SERVER$:$WELCOME_TO_SERVER",
+                                                    "Text": "Welcome to Strawbee!",
                                                     "FontSize": 32,
                                                     "Padding": [
                                                         5,
@@ -80,7 +80,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "$$SERVER$:$SERVER_SLOGAN",
+                                                    "Text": "Strawbees do be Rawring",
                                                     "FontSize": 16,
                                                     "Padding": [
                                                         5,
@@ -185,7 +185,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: What is this About?",
+                                                            "Text": "Q: How many ppls can be in my tribe?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -199,7 +199,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: Just a demo server info page provided my the Ark-Nucleus mod.",
+                                                            "Text": "Four :).",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -224,13 +224,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "What is this About?"
+                                                                "Title": "Why is that?"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "This is just a small representation of what kind of pages can be setup using the Ark-Nucleus JSON Editor.",
+                                                                        "Text": "We dont wanna limit people too much but also dont want huge groups bulking up. Its anyways just PvE!.",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
