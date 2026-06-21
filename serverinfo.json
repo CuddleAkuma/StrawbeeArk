@@ -202,7 +202,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: What is this About?",
+                                                            "Text": "Q: What kind of server is this?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -216,7 +216,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: Just a demo server info page provided my the Ark-Nucleus mod.",
+                                                            "Text": "A: A Vanilla-like PvE server with carefully selected Quality of Life mods.",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -241,13 +241,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "What is this About?"
+                                                                "Title": "What do we mean by that?"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "This is just a small representation of what kind of pages can be setup using the Ark-Nucleus JSON Editor.",
+                                                                        "Text": "Our goal is to preserve the core ARK experience while reducing unnecessary frustrations. We avoid heavily modded gameplay that drastically changes progression, creatures, or balance. Instead, we focus on Quality of Life improvements that make the game more enjoyable without taking away the challenge and satisfaction of survival.",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
@@ -328,7 +328,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: Can I disable this for my server?",
+                                                            "Text": "Q: What maps are available?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -342,7 +342,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: Yes, Go to Installed Mods -> Ark Nucleus ->Server Settings",
+                                                            "Text": "A: Valguero is currently the only map available.",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -367,13 +367,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "Disable Server Info Page"
+                                                                "Title": "Why is that?"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "As majority of things is optional in Ark-Nucleus so is the Server Info Page. You don't see use for it? Disable it!",
+                                                                        "Text": "The server is currently focused on Valguero to help build a strong and active community in one place. As the community grows, additional maps may be added based on player interest and demand. If the server becomes consistently active and receives enough support through donations, we may also expand by increasing the player slot count and adding additional servers for other maps. Our goal is to grow alongside the community while maintaining a stable and enjoyable experience for everyone.",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
@@ -454,7 +454,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: Who can edit this page?",
+                                                            "Text": "Q: Can I play solo?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -468,7 +468,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: Only Admins can edit this page.",
+                                                            "Text": "A: Absolutely! Solo players are fully supported.",
                                                             "Justification": "Center",
                                                             "FontSize": 11,
                                                             "Fill": 1,
@@ -493,13 +493,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "Who and where to edit?"
+                                                                "Title": "Learn more"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "If you are in the admin mode, you will see an EDIT button in the upper right corner.",
+                                                                        "Text": "While the server allows tribes of up to 4 players, solo survivors can still progress comfortably. We use the Solo Farm Mod to make gathering resources easier when playing alone, helping solo players stay competitive without needing a large tribe. Whether you prefer to play by yourself or with friends, you'll be able to enjoy the full PvE experience.",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
@@ -784,7 +784,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "2. Respect Others: Be respectful to all players and staff. Respect other players' bases, tames, and property. No griefing, harassment, or intentionally ruining another player's experience.",
+                                    "Text": "2. Respect Others: e respectful to all players and staff. Respect other players' bases, tames, and property. No griefing, harassment, or intentionally ruining another player's experience.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
