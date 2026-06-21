@@ -37,20 +37,20 @@
 		},
 		"WELCOME_TO_SERVER":
 		{
-			"en": "Welcome to STRAWBEE 20.06.26/10X [No wipe]!",
-			"de": "Willkommen auf STRAWBEE 20.06.26/10X [No wipe]!",
-			"es": "¡Bienvenido a STRAWBEE 20.06.26/10X [No wipe]!",
-			"it": "Benvenuti su STRAWBEE 20.06.26/10X [No wipe]!",
-			"da": "Velkommen til STRAWBEE 20.06.26/10X [No wipe]!",
-			"nl": "Welkom bij STRAWBEE 20.06.26/10X [No wipe]!",
-			"fr": "Bienvenue sur STRAWBEE 20.06.26/10X [No wipe]!",
-			"tr": "STRAWBEE 20.06.26/10X [No wipe]'a hoş geldiniz!",
-			"ko": "STRAWBEE 20.06.26/10X [No wipe] 에 오신 것을 환영합니다!",
-			"zh": "欢迎来到STRAWBEE 20.06.26/10X [No wipe]！",
-			"zh-TW": "歡迎來到STRAWBEE 20.06.26/10X [No wipe]！",
-			"ja": "STRAWBEE 20.06.26/10X [No wipe]へようこそ！",
-			"pt-BR": "Bem-vindo ao STRAWBEE 20.06.26/10X [No wipe]!",
-			"ru": "Добро пожаловать на STRAWBEE 20.06.26/10X [No wipe]!"
+			"en": "Welcome to STRAWBEE!",
+			"de": "Willkommen auf STRAWBEE!",
+			"es": "¡Bienvenido a STRAWBEE!",
+			"it": "Benvenuti su STRAWBEE!",
+			"da": "Velkommen til STRAWBEE!",
+			"nl": "Welkom bij STRAWBEE!",
+			"fr": "Bienvenue sur STRAWBEE!",
+			"tr": "Welcome to STRAWBEE!",
+			"ko": "STRAWBEE 에 오신 것을 환영합니다!",
+			"zh": "欢迎来到STRAWBEE！",
+			"zh-TW": "歡迎來到STRAWBEE！",
+			"ja": "STRAWBEE へようこそ！",
+			"pt-BR": "Bem-vindo ao STRAWBEE!",
+			"ru": "Добро пожаловать на STRAWBEE!"
 		},
 		"SERVER_SLOGAN":
 		{
