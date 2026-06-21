@@ -67,7 +67,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "Welcome to Strawbee!",
+                                                    "Text": "$$SERVER$:$WELCOME_TO_SERVER",
                                                     "FontSize": 32,
                                                     "Padding": [
                                                         5,
@@ -80,7 +80,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "Strawbees do be Rawring",
+                                                    "Text": "$$SERVER$:$SERVER_SLOGAN",
                                                     "FontSize": 16,
                                                     "Padding": [
                                                         5,
@@ -90,11 +90,28 @@
                                                     ]
                                                 }
                                             },
-                                            
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                                                "UIItems": [
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
-                                                            "Label": "Join the Strawbees!",
+                                                            "Label": "Link to a Twitter Page",
+                                                            "Padding": [
+                                                                5,
+                                                                5,
+                                                                5,
+                                                                5
+                                                            ]
+                                                        },
+                                                        "OnClickEvent": {
+                                                            "Url": "https://twitter.com/"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                        "Props": {
+                                                            "Label": "Invite to a Discord Server",
                                                             "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
                                                             "Padding": [
                                                                 5,
@@ -104,7 +121,7 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "https://discord.gg/FbFzcnqwTw"
+                                                            "Url": "https://discord.gg/"
                                                         }
                                                     }
                                                 ]
@@ -185,7 +202,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: How many ppls can be in my tribe?",
+                                                            "Text": "Q: What is this About?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -199,7 +216,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Four :).",
+                                                            "Text": "A: Just a demo server info page provided my the Ark-Nucleus mod.",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -224,13 +241,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "Why is that?"
+                                                                "Title": "What is this About?"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "We dont wanna limit people too much but also dont want huge groups bulking up. Its anyways just PvE!.",
+                                                                        "Text": "This is just a small representation of what kind of pages can be setup using the Ark-Nucleus JSON Editor.",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
@@ -311,7 +328,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: What are the rates (XP, harvest, taming, breeding)?",
+                                                            "Text": "Q: Can I disable this for my server?",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -325,7 +342,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: This is 10x! For more Info click below!",
+                                                            "Text": "A: Yes, Go to Installed Mods -> Ark Nucleus ->Server Settings",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -350,13 +367,13 @@
                                                         },
                                                         "Modal": {
                                                             "Props": {
-                                                                "Title": "Exact Ratios here!"
+                                                                "Title": "Disable Server Info Page"
                                                             },
                                                             "UIItems": [
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "🌿 STRAWBEE PvE RATES\n\n⭐ XP\n• Harvest XP: 3x\n• Kill XP: 3x\n• Generic XP: 2.5x\n• Special XP: 2.5x\n• Boss XP: 8x\n\n🪓 Harvesting\n• Harvest Amount: 10x\n• Player Harvest Damage: 2.5x\n• Dino Harvest Damage: 5x\n\n🦖 Taming\n• Taming Speed: 10x\n\n🥚 Breeding\n• Hatch Speed: 10x\n• Mature Speed: 5x\n• Imprint: 5x\n\n📦 QoL\n• Stack Size: 25x\n• Unlimited Mindwipes\n• No Cryo Sickness\n• Crossplay Enabled",
+                                                                        "Text": "As majority of things is optional in Ark-Nucleus so is the Server Info Page. You don't see use for it? Disable it!",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
@@ -379,7 +396,136 @@
                                     }
                                 ]
                             },
-                            
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                                "Props": {
+                                    "VerticalAlignment": 0,
+                                    "Fill": 1,
+                                    "Color": [
+                                        0,
+                                        0.2,
+                                        0.5
+                                    ],
+                                    "Padding": [
+                                        10,
+                                        10,
+                                        10,
+                                        10
+                                    ]
+                                },
+                                "UIItems": [
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                                        "Props": {
+                                            "Padding": [
+                                                5,
+                                                5,
+                                                5,
+                                                5
+                                            ]
+                                        },
+                                        "UIItems": [
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                                                "Props": {
+                                                    "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                                                    "Width": 120,
+                                                    "Height": 120,
+                                                    "Padding": [
+                                                        5,
+                                                        5,
+                                                        5,
+                                                        5
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                                "Props": {
+                                                    "Fill": 1,
+                                                    "Padding": [
+                                                        5,
+                                                        5,
+                                                        5,
+                                                        5
+                                                    ]
+                                                },
+                                                "UIItems": [
+                                                    {
+                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                                        "Props": {
+                                                            "Text": "Q: Who can edit this page?",
+                                                            "FontSize": 14,
+                                                            "Justification": "Center",
+                                                            "Padding": [
+                                                                0,
+                                                                0,
+                                                                0,
+                                                                5
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                                        "Props": {
+                                                            "Text": "A: Only Admins can edit this page.",
+                                                            "Justification": "Center",
+                                                            "FontSize": 11,
+                                                            "Fill": 1,
+                                                            "Padding": [
+                                                                0,
+                                                                0,
+                                                                0,
+                                                                5
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                        "Props": {
+                                                            "Label": "Learn More",
+                                                            "Padding": [
+                                                                5,
+                                                                5,
+                                                                5,
+                                                                5
+                                                            ]
+                                                        },
+                                                        "Modal": {
+                                                            "Props": {
+                                                                "Title": "Who and where to edit?"
+                                                            },
+                                                            "UIItems": [
+                                                                {
+                                                                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                                                    "Props": {
+                                                                        "Text": "If you are in the admin mode, you will see an EDIT button in the upper right corner.",
+                                                                        "FontSize": 15,
+                                                                        "Fill": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                                    "Props": {
+                                                                        "Label": "$$Ark-Nucleus$:$OK_BTN"
+                                                                    },
+                                                                    "OnClickEvent": {
+                                                                        "EventUID": "CloseModal"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
                 "Props": {
@@ -391,7 +537,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "THIS PAGE IS STILL IN CONSTRUCTION!!!",
+                            "Text": "THIS IS A DEMO PAGE!!!",
                             "FontSize": 24,
                             "Justification": "Center",
                             "Color": [
@@ -410,7 +556,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "The page is still under construction and might contain spelling mistakes or missing content",
+                            "Text": "The Question and Answers are just an example until replaced by an admin with their own.",
                             "FontSize": 22,
                             "Justification": "Center",
                             "Color": [
@@ -446,7 +592,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Q: Yes, but they're simple.",
+                                    "Text": "Q: What mods are installed on the server?",
                                     "FontSize": 16,
                                     "Padding": [
                                         5,
@@ -459,7 +605,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: See Rules and Guides Tab or find them on our Discord in the rules channel!",
+                                    "Text": "A: We have carefully selected mods to enhance your gaming experience. You can find a list of installed mods by clicking the \"INSTALLED MODS\" on the left side menu.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -472,7 +618,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Q: Please report rule violations through the Discord server.",
+                                    "Text": "Q: How often is the server wiped?",
                                     "FontSize": 16,
                                     "Padding": [
                                         5,
@@ -485,7 +631,59 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: You can use out ticket system on DIscord. When making a report, include: The player's in-game name (and tribe name if possible), A brief description of what happened, Screenshots or video evidence whenever possible and the location where the incident occoured. False reports or reports made in bad faith may result in action being taken against the reporter. All reports will be reviewed by the admin team before any action is taken.",
+                                    "Text": "A: We aim to provide a stable and enjoyable gaming environment, so server wipes are infrequent. However, wipes may occur during major game updates or if necessary for maintenance purposes. We will notify players in advance if a wipe is scheduled.",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: Are there any rules I need to follow?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: Yes, we have a set of rules in place to ensure fair play and a positive community experience. These rules typically cover areas such as harassment, cheating, and griefing. You can find our server rules posted in the above \"Rules\" tab or in our Discord server.",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: How do I report a player for breaking the rules?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: If you encounter a player violating server rules, please report them to one of our moderators or admins. You can do this through the in-game chat, Discord server, or by using the \"SURVIVORS HUB\" on the left side menu. Be sure to provide as much detail as possible, including the player's name and a description of the incident.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -511,7 +709,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: Absolutely! Friends are welcome to join and play together. Please remember that the maximum tribe size is 4 players. The tribe limit exists to help keep the server balanced and encourage more players and tribes to join, rather than having a few large tribes take up most of the server population.We want everyone to have the opportunity to build, progress, and be part of the community, especially while the server is limited to 20 slots.",
+                                    "Text": "A: Absolutely! We encourage you to invite your friends to join our server and embark on adventures together. Just make sure they also adhere to our server rules to maintain a friendly gaming environment.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -537,7 +735,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: Yes, we have a Discord server where players can chat, share tips, and participate in events. Joining the Discord is highly recommended to stay connected with the community and keep up to date with everything happening on the server. Discord Invite: https://discord.gg/FbFzcnqwTw",
+                                    "Text": "A: Yes, we have a Discord server where players can chat, share tips, and participate in events. You can find the link to our Discord server in the game's chat or on our server information page.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -563,7 +761,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A:  Absolutely! Player feedback is always welcome. If you have ideas for server settings, quality-of-life improvements, events, mods, future maps, or other changes, feel free to share them in the Discord server. While not every suggestion can be implemented, all feedback will be considered. Our goal is to build a fun and enjoyable community-driven server, and player input helps us improve the experience for everyone.",
+                                    "Text": "A: Absolutely! We value feedback from our community and are always open to suggestions for improving the server experience. Whether it's a mod recommendation, gameplay adjustment, or general feedback, we encourage players to share their ideas with us through our Discord server or other communication channels.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -576,7 +774,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Q: You can contact the server admins through the Discord server. For general questions, use the #questions channel. For incidents, ise the Ticket System!",
+                                    "Text": "Q: How do I contact the server admins?",
                                     "FontSize": 16,
                                     "Padding": [
                                         5,
@@ -615,7 +813,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Got a question buzzing around in your head? Ask in chat or join our Discord hive! The Strawbees are always around to lend a wing. Good luck, survivor, and may your tames be strong and your honey always sweet.",
+                            "Text": "We hope this FAQ helps address any questions you may have about our Ark game server. If you have any further inquiries, don't hesitate to ask our friendly community or server staff. Happy gaming!",
                             "FontSize": 16,
                             "Padding": [
                                 5,
@@ -638,7 +836,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "This Page is still in work!!!",
+                            "Text": "THIS IS A DEMO PAGE!!!",
                             "FontSize": 24,
                             "Justification": "Center",
                             "Color": [
@@ -657,7 +855,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "⚠️ This page is a work in progress. Some sections may be incomplete, outdated, or contain spelling and grammar mistakes. If you spot an issue or have suggestions, please let us know through Discord.",
+                            "Text": "The listed Ruels and Guids are just an example until replaced by an admin with their own.",
                             "FontSize": 22,
                             "Justification": "Center",
                             "Color": [
@@ -693,7 +891,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "1. Tribe Limit: Maximum tribe size is 4 players.",
+                                    "Text": "1. Respect thy Neighbor: Treat your fellow Survivors with courtesy and respect. No harassment, hate speech, or toxic behavior will be tolerated.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -706,7 +904,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "2. Respect Others: Be respectful to other players and staff. Respect other players' bases, tames, and property. No griefing, harassment, or intentionally ruining another player's experience.",
+                                    "Text": "2. Base Raiding: While PvP is encouraged, senseless destruction is not. Raiding is allowed, but don't wipe out entire bases. Leave something for your opponents to rebuild with.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -732,7 +930,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "4. Building & Resources: Building in caves is allowed. Do not block important resource spawns, including metal, crystal, obsidian, oil, and other valuable nodes. Do not build on Beaver Dam spawn locations. Do not block artifact access, boss terminals, obelisks, or major travel routes. Avoid excessive pillar or foundation spam used only to reserve land.",
+                                    "Text": "4. Building Limits: Keep your structures reasonable in size to maintain server performance. Excessive building or pillar spamming is not allowed.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -745,7 +943,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "5. Server Maintenance: Inactive bases, structures, and tames may be removed to keep the map clean and available for active players. Keep bases and tame counts reasonable to help server performance.",
+                                    "Text": "5. Wildlife Conservation: Avoid unnecessary killing of passive tames and wildlife. Let's strive for ecological balance on the Ark.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -758,20 +956,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "6. Bugs & Exploits: Please report any bugs, glitches, or issues you discover. No cheats, hacks, exploits, or mesh abuse.",
-                                    "FontSize": 14,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                               {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "7. Community Events: Have fun. Help other players when you can.",
+                                    "Text": "6. Roleplay Encouraged: Engage in immersive roleplay if that's your style! Whether you're a lone survivor, a tribal leader, or a dino tamer, bring your character to life.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -784,7 +969,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "8. Golden Rule: Don't be the reason someone else stops having fun.",
+                                    "Text": "7. Community Events: Join in on server-wide events for a chance to earn rewards, make new friends, and test your skills against the challenges we throw your way.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -809,7 +994,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Strawbee - The Sweetest Place to Survive!",
+                            "Text": "Welcome to [Server Name] - Your Ultimate Ark: Survival Ascended Adventure!",
                             "FontSize": 28,
                             "Justification": "Center",
                             "Padding": [
@@ -823,7 +1008,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to the Strawbee Hive! Whether you're a seasoned survivor or just beginning your journey, you'll find a welcoming community, boosted rates, and endless adventures waiting for you.",
+                            "Text": "Greetings, Survivors! Step into a world of untamed wilderness, colossal dinosaurs, and epic adventures on our Ark: Survival Ascended game server.",
                             "FontSize": 15,
                             "Padding": [
                                 0,
@@ -832,6 +1017,130 @@
                                 10
                             ]
                         }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "We've created a thriving community where players can forge alliances, face formidable challenges, and build their own Jurassic legacy.",
+                            "FontSize": 15,
+                            "Padding": [
+                                0,
+                                0,
+                                0,
+                                10
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                        "Props": {
+                            "Padding": [
+                                0,
+                                0,
+                                0,
+                                10
+                            ],
+                            "Color": [
+                                1,
+                                1,
+                                0,
+                                1
+                            ]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "This is an EXAMPLE Page provided my Nucleus. As a Server Admin you can fully customize this page with custom text, images, widgets and additional pages.",
+                                    "FontSize": 15,
+                                    "Justification": "Center",
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                        "Props": {
+                            "Padding": [
+                                0,
+                                0,
+                                0,
+                                10
+                            ],
+                            "Color": [
+                                1,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "It can be used to make things stand out by using the Color Property with a RGB/RGBA value formatted as an array [R,G,B,A] (RED color -> [1.0,0,0,1]).",
+                                    "FontSize": 15,
+                                    "Justification": "Center",
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Some other examples of controls and widgets available for use.",
+                            "FontSize": 18,
+                            "Color": [
+                                0,
+                                0.5,
+                                1,
+                                1
+                            ],
+                            "Padding": [
+                                0,
+                                0,
+                                0,
+                                10
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                        "Props": {
+                            "Padding": [
+                                0,
+                                0,
+                                0,
+                                10
+                            ]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "This is a Border widget, use this if you whish to have some elements stand more out by adding a border around it.",
+                                    "FontSize": 15,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            }
+                        ]
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
