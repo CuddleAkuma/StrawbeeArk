@@ -592,58 +592,6 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Q: What mods are installed on the server?",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "A: We have carefully selected mods to enhance your gaming experience. You can find a list of installed mods by clicking the \"INSTALLED MODS\" on the left side menu.",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "Q: How often is the server wiped?",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "A: We aim to provide a stable and enjoyable gaming environment, so server wipes are infrequent. However, wipes may occur during major game updates or if necessary for maintenance purposes. We will notify players in advance if a wipe is scheduled.",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
                                     "Text": "Q: Are there any rules I need to follow?",
                                     "FontSize": 16,
                                     "Padding": [
@@ -657,7 +605,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: Yes, we have a set of rules in place to ensure fair play and a positive community experience. These rules typically cover areas such as harassment, cheating, and griefing. You can find our server rules posted in the above \"Rules\" tab or in our Discord server.",
+                                    "Text": "A: Yes, but they are super simple! You will find them in the Rules and Guides Tab!",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -683,7 +631,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: If you encounter a player violating server rules, please report them to one of our moderators or admins. You can do this through the in-game chat, Discord server, or by using the \"SURVIVORS HUB\" on the left side menu. Be sure to provide as much detail as possible, including the player's name and a description of the incident.",
+                                    "Text": "A: Please report rule violations through the Discord server. You can use the #support-Channel for this! False reports or reports made in bad faith may result in action being taken against the reporter.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -709,7 +657,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: Absolutely! We encourage you to invite your friends to join our server and embark on adventures together. Just make sure they also adhere to our server rules to maintain a friendly gaming environment.",
+                                    "Text": "A: Absolutely! Friends are welcome to join and play together. Please remember that the maximum tribe size is 4 players. The tribe limit exists to help keep the server balanced and encourage more players and tribes to join, rather than having a few large tribes take up most of the server population. We want everyone to have the opportunity to build, progress, and be part of the community, especially while the server is limited to 20 slots. All players are expected to follow the server rules and help maintain a friendly PvE environment.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -735,7 +683,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: Yes, we have a Discord server where players can chat, share tips, and participate in events. You can find the link to our Discord server in the game's chat or on our server information page.",
+                                    "Text": "A: Yes! You can join via the Button on the Home Page!.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -761,7 +709,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: Absolutely! We value feedback from our community and are always open to suggestions for improving the server experience. Whether it's a mod recommendation, gameplay adjustment, or general feedback, we encourage players to share their ideas with us through our Discord server or other communication channels.",
+                                    "Text": "A: Absolutely! Player feedback is always welcome. If you have ideas for server settings, quality-of-life improvements, events, mods, future maps, or other changes, feel free to share them in the Discord server. While not every suggestion can be implemented, all feedback will be considered. Our goal is to build a fun and enjoyable community-driven server, and player input helps us improve the experience for everyone.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -787,7 +735,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "A: If you need assistance or have any concerns, you can reach out to our server admins via Discord. They are here to help resolve any issues and ensure everyone has an enjoyable gaming experience.",
+                                    "Text": "A: You can contact the server admins through the Discord server. Ideally, create a ticket in the #support Channel. For general questions, use the #questions channel.",
                                     "FontSize": 12,
                                     "Padding": [
                                         5,
@@ -813,7 +761,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "We hope this FAQ helps address any questions you may have about our Ark game server. If you have any further inquiries, don't hesitate to ask our friendly community or server staff. Happy gaming!",
+                            "Text": "We hope this FAQ answers your questions and helps you plant your roots here at STRAWBEE. If you need anything else, don't hesitate to reach out to our community or staff. Happy surviving, and may your tribe continue to grow!",
                             "FontSize": 16,
                             "Padding": [
                                 5,
