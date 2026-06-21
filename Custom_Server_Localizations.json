@@ -54,20 +54,20 @@
 		},
 		"SERVER_SLOGAN":
 		{
-			"en": " - Plant Your Roots, Conquer the ARK.",
-			"de": " - Dein ultimatives Ark: Survival Ascended Abenteuer!",
-			"es": " - Echa raíces y conquista el ARK.",
-			"it": " - Metti radici e conquista l'ARK.",
-			"da": " - Slå rødder og erobr ARK'en.",
-			"nl": " - Sla je wortels en verover de ARK.",
-			"fr": " - Plantez vos racines, conquérez l'ARK.",
-			"tr": " - Kök salın, ARK'ı fethedin.",
-			"ko": " - Plant Your Roots, Conquer the ARK.",
-			"zh": " - Plant Your Roots, Conquer the ARK.",
-			"zh-TW": " - Plant Your Roots, Conquer the ARK.",
-			"ja": " - Plant Your Roots, Conquer the ARK.",
-			"pt-BR": " - Crie raízes e conquiste o ARK.",
-			"ru": " - Пустите корни и покорите ARK."
+		    "en": " - Plant Your Roots, Conquer the ARK.",
+		    "de": " - Schlage Wurzeln und erobere die ARK.",
+		    "es": " - Echa raíces y conquista el ARK.",
+		    "it": " - Metti radici e conquista l'ARK.",
+		    "da": " - Slå rødder og erobr ARK'en.",
+		    "nl": " - Sla je wortels en verover de ARK.",
+		    "fr": " - Plantez vos racines, conquérez l'ARK.",
+		    "tr": " - Kök salın, ARK'ı fethedin.",
+		    "ko": " - 터전을 세우고 ARK를 정복하세요.",
+		    "zh": " - 扎根生存，征服方舟。",
+		    "zh-TW": " - 扎根生存，征服方舟。",
+		    "ja": " - 根を張り、ARKを征服せよ。",
+		    "pt-BR": " - Crie raízes e conquiste o ARK.",
+		    "ru": " - Пустите корни и покорите ARK."
 		},
 		"FAQ":
 		{
