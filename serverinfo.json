@@ -784,7 +784,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "2. Respect Others: e respectful to all players and staff. Respect other players' bases, tames, and property. No griefing, harassment, or intentionally ruining another player's experience.",
+                                    "Text": "2. Respect Others: Be respectful to all players and staff. Respect other players' bases, tames, and property. No griefing, harassment, or intentionally ruining another player's experience.",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
