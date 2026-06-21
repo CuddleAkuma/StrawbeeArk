@@ -96,7 +96,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
-                                                            "Label": "Link to a Twitter Page",
+                                                            "Label": "Link to Donate!",
                                                             "Padding": [
                                                                 5,
                                                                 5,
@@ -105,7 +105,7 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "https://twitter.com/"
+                                                            "Url": "https://ko-fi.com/strawbeeark"
                                                         }
                                                     },
                                                     {
